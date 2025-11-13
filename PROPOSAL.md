@@ -1,6 +1,6 @@
 **Title** : Modeling Song Popularity with Supervised Learning and Audio Feature Analysis
 
-**Category** : Data Analysis & Visualization
+**Category** : Supervised Machine Learning & Predictive Modeling
 
 **Problem Statement & Motivation** : Music streaming platforms like Spotify rely on algorithms to understand listener preferences and songs that users are likely to enjoy, while also considering popularity trends. Understanding what drives a song’s popularity can provide valuable insights for artists, producers, and streaming platforms. This project aims to forecast song popularity using supervised machine learning models, including Linear Regression, Random Forest, and XGBoost, based on audio features. By analyzing which features most influence popularity, we can gain a deeper understanding of musical trends and listener preferences. This project shows how data science can guide strategic choices in the music industry by showcasing real-world applications of predictive modelling in a dataset of over 30'000 songs.
 
