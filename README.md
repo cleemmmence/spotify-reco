@@ -17,6 +17,7 @@ Expected output : Comparison of regression models using R^2, RMSE, and MAE metri
 ## Project Structure
 spotify-reco/
 ├── main.py # Main entry point
+├── project_report.pdf #PDF Report
 ├── src/ # Source code
 │ ├── dataloader.py # Data loading and preprocessing
 │ ├── models.py # Model training
@@ -25,10 +26,15 @@ spotify-reco/
 ├── data/
 │ ├── raw/ # Raw datasets
 │ └── processed/ # Cleaned dataset used for modeling
-├── results/ # Output metrics and figures
+├── results/ # Figures
 │ ├── metrics.csv
-│ ├── feature_importance_random_forest.png
-│ └── feature_importance_xgboost.png
+│ ├── actual_vs_pred_linear_regression.png
+│ ├── actual_vs_pred_ridge_regression.png
+│ ├── actual_vs_pred_random_forest.png
+│ ├── actual_vs_pred_xgboost.png
+│ ├── correlation_w_popularity.png
+│ ├── popularity_histogram.png
+│ └── residuals_xgboost.png
 └── environment.yml # Project dependencies
 
 ## Results
@@ -56,4 +62,4 @@ Winner : Tree-based models (Random Forest and XGBoost) achieved the highest pred
 
 ## Requirements
 - Python 3.10+
-- pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost
+- pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, spotipy
